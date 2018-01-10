@@ -12,10 +12,9 @@ class Application
     # resp.write "#{num_3}\n"
     # binding.pry
 
-    time = Time.new
 
 
-    if Integer(0:00:00) > time && Integer(12:00:00) < time
+    if Kernel.rand(0..12)
       resp.write "Morning"
     else
       resp.write "Afternoon"
