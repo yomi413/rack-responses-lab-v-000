@@ -13,7 +13,7 @@ class Application
     # binding.pry
 
     time = Time.now
-    time.hour(0..23)
+    # time.hour(0..23)
 
 
     if time.hour(0..23) < 12
