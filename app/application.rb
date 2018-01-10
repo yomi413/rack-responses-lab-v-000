@@ -12,10 +12,10 @@ class Application
     # resp.write "#{num_3}\n"
     # binding.pry
 
-    if Time.new < 12:00
+    if Time.new < 12
       resp.write "Good morning!"
     else
-      resp.write "Good afternoon"
+      resp.write "Good afternoon!"
     end
 
     resp.finish
