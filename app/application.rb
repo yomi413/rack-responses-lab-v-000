@@ -13,7 +13,7 @@ class Application
     # binding.pry
 
     time = Time.new
-    
+
 
     if Integer(0:00:00) > time && Integer(12:00:00) < time
       resp.write "Morning"
