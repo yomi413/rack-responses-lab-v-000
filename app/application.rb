@@ -12,7 +12,7 @@ class Application
     # resp.write "#{num_3}\n"
     # binding.pry
 
-    time = Integer("24", 12)
+    # time = Integer("24", 12)
 
     if time > 0 && time < 12
       resp.write "Morning"
