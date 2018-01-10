@@ -10,7 +10,7 @@ class Application
     # resp.write "#{num_1}\n"
     # resp.write "#{num_2}\n"
     # resp.write "#{num_3}\n"
-    binding.pry
+    # binding.pry
 
     if Time.new < 12:00
       resp.write "Good morning!"
