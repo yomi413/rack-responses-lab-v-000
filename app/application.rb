@@ -15,6 +15,7 @@ class Application
     # time = Integer(Time.new)
 
     if Kernel.Integer(Time.new) < 12
+      binding.pry
       resp.write "Morning"
     else
       resp.write "Afternoon"
