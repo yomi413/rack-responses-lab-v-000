@@ -16,7 +16,7 @@ class Application
 
     if Kernel.rand(0..12)
       resp.write "Morning"
-    else
+    elsif Kernel.rand(13..24)
       resp.write "Afternoon"
     end
 
