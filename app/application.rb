@@ -14,9 +14,9 @@ class Application
 
     time = Time.now
     time.hour(0..23)
-    
 
-    if
+
+    if time.hour > 0 && time.hour < 12
       resp.write "Morning"
     else
       resp.write "Afternoon"
