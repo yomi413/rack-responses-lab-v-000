@@ -10,9 +10,9 @@ class Application
     # resp.write "#{num_1}\n"
     # resp.write "#{num_2}\n"
     # resp.write "#{num_3}\n"
-    # binding.pry
+    binding.pry
 
-    time = Integer(Time.new)
+    # time = Integer(Time.new)
 
     if time < 12
       resp.write "Morning"
