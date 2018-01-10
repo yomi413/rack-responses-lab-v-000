@@ -12,9 +12,11 @@ class Application
     # resp.write "#{num_3}\n"
     # binding.pry
 
+    time = Integer(Time.new)
+
     if Integer(Time.new) 
       resp.write "Morning"
-    elsif Integer(Time.new) >= 12
+    elsif Integer(Time.new
       resp.write "Afternoon"
     end
 
