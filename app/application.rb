@@ -10,11 +10,11 @@ class Application
     # resp.write "#{num_1}\n"
     # resp.write "#{num_2}\n"
     # resp.write "#{num_3}\n"
-    # binding.pry
+    binding.pry
 
 
 
-    if 
+    if
       resp.write "Morning"
     else
       resp.write "Afternoon"
