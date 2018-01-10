@@ -14,7 +14,7 @@ class Application
 
     if Integer(Time.new)
       resp.write "Morning"
-    else
+    elsif Integer(Time.new)
       resp.write "Afternoon"
     end
 
