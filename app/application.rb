@@ -14,7 +14,7 @@ class Application
 
     # time = Integer(Time.new)
 
-    if Integer(Time.new) < /
+    if Integer(Time.new) < 12
       resp.write "Morning"
     else
       resp.write "Afternoon"
