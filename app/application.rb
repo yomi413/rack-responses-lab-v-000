@@ -12,9 +12,9 @@ class Application
     # resp.write "#{num_3}\n"
     binding.pry
 
-    # time = Integer(Time.new)
+    time = Integer(Time.new)
 
-    if Kernel.Integer(Time.new) < 12
+    if time > 0 && time < 12
       resp.write "Morning"
     else
       resp.write "Afternoon"
