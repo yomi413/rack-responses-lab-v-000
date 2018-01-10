@@ -10,8 +10,9 @@ class Application
     # resp.write "#{num_1}\n"
     # resp.write "#{num_2}\n"
     # resp.write "#{num_3}\n"
+    binding.pry
 
-    if time 
+    if time
       resp.write "You Win"
     else
       resp.write "You Lose"
