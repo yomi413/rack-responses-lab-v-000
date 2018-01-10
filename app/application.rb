@@ -13,9 +13,9 @@ class Application
     # binding.pry
 
     if Integer(Time.new) < 12
-      resp.write "Good morning!"
+      resp.write "Morning"
     else
-      resp.write "Good afternoon!"
+      resp.write "Afternoon"
     end
 
     resp.finish
