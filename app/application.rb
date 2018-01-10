@@ -12,7 +12,9 @@ class Application
     # resp.write "#{num_3}\n"
     binding.pry
 
-
+    time = Time.now
+    time.hour(0..23)
+    
 
     if
       resp.write "Morning"
